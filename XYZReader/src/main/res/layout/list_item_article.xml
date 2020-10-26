@@ -8,6 +8,7 @@
     android:layout_marginBottom="4dp"
     android:clickable="true"
     android:focusable="true"
+    android:elevation="1dp"
     android:foreground="?selectableItemBackground">
 
     <LinearLayout
@@ -48,6 +49,7 @@
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
             android:paddingBottom="16dp"
+            android:fontFamily="sans-serif"
             android:textColor="@color/gray_600"
             android:maxLines="2"
             android:ellipsize="end" />
